@@ -15,9 +15,9 @@ const App = () => {
 				/>
 				<Summary
 					title='Summary'
+					reactionColor='red'
 					reactionIcon=''
 					reactionPhrase='Reaction'
-					reactionColor='red'
 					reactionNumber='80'
 				/>
 			</Mobile>
@@ -26,7 +26,3 @@ const App = () => {
 };
 
 export default App;
-
-// memory='Memory'
-// verbal='Verbal'
-// visual='Visual'
