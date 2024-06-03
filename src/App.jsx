@@ -15,30 +15,24 @@ const App = () => {
 				/>
 				<Summary
 					title='Summary'
-
 					reactionIcon='icon-reaction'
 					reactionPhrase='Reaction'
 					reactionNumber='80'
 					reactionNumberAll='/100'
-
-					
 					memoryIcon='icon-memory'
 					memoryPhrase='Memory'
 					memoryNumber='92'
 					memoryNumberAll='/100'
-
-					verbalIcon='icon-memory'
+					verbalIcon='icon-verbal'
 					verbalPhrase='Memory'
-					verbalNumber='92'
+					verbalNumber='61'
 					verbalNumberAll='/100'
-
-
-
+					visualIcon='icon-visual'
+					visualPhrase='Memory'
+					visualNumber='61'
+					visualNumberAll='/100'
+					button='Continue'
 				/>
-
-
-
-				
 			</Mobile>
 		</>
 	);

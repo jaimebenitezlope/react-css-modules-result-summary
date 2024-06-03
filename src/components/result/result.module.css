@@ -32,3 +32,11 @@
 	margin: auto;
 	width: 260px;
 }
+
+@media (min-width: 768px) {
+	.result {
+		width: 352px;
+		height: 456px;
+		border-radius: 25px;
+	}
+}

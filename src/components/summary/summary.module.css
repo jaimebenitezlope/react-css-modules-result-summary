@@ -3,20 +3,19 @@
 	flex-direction: column;
 	align-items: center;
 	width: 375px;
-	height: 356px;
+
 	border-radius: 0 0 48px 48px;
 }
-.titleDiv{
+.titleDiv {
 	width: 100%;
 	display: flex;
-	padding: 20px;
+	padding: 10px;
 }
 .title {
 	font-size: 18px;
-	color: #303B59;
-	
+	color: #303b59;
 }
-.summariesReaction{
+.summariesReaction {
 	display: flex;
 	justify-content: space-between;
 	width: 315px;
@@ -27,31 +26,31 @@
 	padding: 15px;
 }
 
-.summariesLeft{
+.summariesLeft {
 	display: flex;
 	align-items: center;
 }
 
-.summariesRight{
+.summariesRight {
 	display: flex;
 	align-items: center;
 }
 
-.reactionPhrase{
-	color: #FF5555;
+.reactionPhrase {
+	color: #ff5555;
 	font-size: 16px;
 }
-.reactionNumber{
+.reactionNumber {
 	font-size: 16px;
-	color: #303B59 ;
+	color: #303b59;
 }
-.reactionNumberAll{
+.reactionNumberAll {
 	font-size: 16px;
-	color: #303b597c ;
+	color: #303b597c;
 }
 
-.summariesMemory{
-	margin-top: 10px;
+.summariesMemory {
+	margin-top: 13px;
 	display: flex;
 	justify-content: space-between;
 	width: 315px;
@@ -62,17 +61,74 @@
 	padding: 15px;
 }
 
-.memoryPhrase{
-	color: #FFB21E;
+.memoryPhrase {
+	color: #ffb21e;
 	font-size: 16px;
 }
-.memoryNumber{
+.memoryNumber {
 	font-size: 16px;
-	color: #303B59 ;
+	color: #303b59;
 }
-.memoryNumberAll{
+.memoryNumberAll {
 	font-size: 16px;
 	color: #303b597c;
 }
 
+.summariesVerbal {
+	margin-top: 13px;
+	display: flex;
+	justify-content: space-between;
+	width: 315px;
+	height: 56px;
+	align-items: center;
+	background-color: #00bb8f2a;
+	border-radius: 10px;
+	padding: 15px;
+}
 
+.verbalPhrase {
+	color: #00bb8f;
+	font-size: 16px;
+}
+.verbalNumber {
+	font-size: 16px;
+	color: #303b59;
+}
+.verbalNumberAll {
+	font-size: 16px;
+	color: #303b597c;
+}
+
+.summariesVisual {
+	margin-top: 13px;
+	display: flex;
+	justify-content: space-between;
+	width: 315px;
+	height: 56px;
+	align-items: center;
+	background-color: #1125d616;
+	border-radius: 10px;
+	padding: 15px;
+}
+
+.visualPhrase {
+	color: #1125d6;
+	font-size: 16px;
+}
+.visualNumber {
+	font-size: 16px;
+	color: #303b59;
+}
+.visualNumberAll {
+	font-size: 16px;
+	color: #303b597c;
+}
+.button {
+	width: 315px;
+	height: 56px;
+	border-radius: 50px;
+	margin-top: 30px;
+	background-color: #303b59;
+	color: white;
+	border: 0;
+}
