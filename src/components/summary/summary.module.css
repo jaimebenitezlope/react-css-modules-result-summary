@@ -1,11 +1,78 @@
 .summary {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	width: 375px;
 	height: 356px;
 	border-radius: 0 0 48px 48px;
 }
-
-.title {
-	font-size: 16px;
-	color: black;
-	position: relative;
+.titleDiv{
+	width: 100%;
+	display: flex;
+	padding: 20px;
 }
+.title {
+	font-size: 18px;
+	color: #303B59;
+	
+}
+.summariesReaction{
+	display: flex;
+	justify-content: space-between;
+	width: 315px;
+	height: 56px;
+	align-items: center;
+	background-color: #ff555513;
+	border-radius: 10px;
+	padding: 15px;
+}
+
+.summariesLeft{
+	display: flex;
+	align-items: center;
+}
+
+.summariesRight{
+	display: flex;
+	align-items: center;
+}
+
+.reactionPhrase{
+	color: #FF5555;
+	font-size: 16px;
+}
+.reactionNumber{
+	font-size: 16px;
+	color: #303B59 ;
+}
+.reactionNumberAll{
+	font-size: 16px;
+	color: #303b597c ;
+}
+
+.summariesMemory{
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-between;
+	width: 315px;
+	height: 56px;
+	align-items: center;
+	background-color: #ffb01e15;
+	border-radius: 10px;
+	padding: 15px;
+}
+
+.memoryPhrase{
+	color: #FFB21E;
+	font-size: 16px;
+}
+.memoryNumber{
+	font-size: 16px;
+	color: #303B59 ;
+}
+.memoryNumberAll{
+	font-size: 16px;
+	color: #303b597c;
+}
+
+

@@ -15,11 +15,30 @@ const App = () => {
 				/>
 				<Summary
 					title='Summary'
-					reactionColor='red'
-					reactionIcon=''
+
+					reactionIcon='icon-reaction'
 					reactionPhrase='Reaction'
 					reactionNumber='80'
+					reactionNumberAll='/100'
+
+					
+					memoryIcon='icon-memory'
+					memoryPhrase='Memory'
+					memoryNumber='92'
+					memoryNumberAll='/100'
+
+					verbalIcon='icon-memory'
+					verbalPhrase='Memory'
+					verbalNumber='92'
+					verbalNumberAll='/100'
+
+
+
 				/>
+
+
+
+				
 			</Mobile>
 		</>
 	);

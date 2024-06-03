@@ -5,3 +5,10 @@ body {
 	box-sizing: border-box;
 	font-family: 'Hanken Grotesk', sans-serif;
 }
+
+:root {
+	--red: #FF5555;
+	--yellow: #FFB21E;
+	--green: #00BB8F;
+	--blue: #1125D6;
+}
